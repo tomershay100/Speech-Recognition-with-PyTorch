@@ -1,6 +1,11 @@
 
 
 # Speech Recognition with PyTorch
+
+NEED TO ADD:
+על הקבצים שהקוד מייצא כולל הגרף
+להוסיף את תרשים של המודל לרידמי
+
 CNN implementation in Python with PyTorch, on audio (``.wav``) files (94+ on test).
 
 1. [General](#General)
