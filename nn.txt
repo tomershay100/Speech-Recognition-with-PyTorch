@@ -1,0 +1,57 @@
+           OPERATION           DATA DIMENSIONS
+
+               Input   #####    161  101    1
+              Conv2D    \|/  -------------------
+                ReLU   #####    161  101   64
+  BatchNormalization    μ|σ  -------------------
+                       #####    161  101   64
+        MaxPooling2D   Y max -------------------
+                       #####     80   50   64
+              Conv2D    \|/  -------------------
+                ReLU   #####     80   50   64
+  BatchNormalization    μ|σ  -------------------
+                       #####     80   50   64
+        MaxPooling2D   Y max -------------------
+                       #####     40   25   64
+              Conv2D    \|/  -------------------
+                ReLU   #####     40   25  128
+  BatchNormalization    μ|σ  -------------------
+                       #####     40   25  128
+        MaxPooling2D   Y max -------------------
+                       #####     20   12  128
+              Conv2D    \|/  -------------------
+                ReLU   #####     20   12  128
+  BatchNormalization    μ|σ  -------------------
+                       #####     20   12  128
+        MaxPooling2D   Y max -------------------
+                       #####     10    6  128
+              Conv2D    \|/  -------------------
+                ReLU   #####     10    6  128
+  BatchNormalization    μ|σ  -------------------
+                       #####     10    6  128
+        MaxPooling2D   Y max -------------------
+                       #####      5    3  128
+              Conv2D    \|/  -------------------
+                ReLU   #####      5    3  256
+  BatchNormalization    μ|σ  -------------------
+                       #####      5    3  256
+        MaxPooling2D   Y max -------------------
+                       #####      2    1  256
+             Flatten   ||||| -------------------
+                       #####         512
+      FullyConnected   XXXXX -------------------
+                       #####         256
+  BatchNormalization    μ|σ  -------------------
+                ReLU   #####         256
+             Dropout    | || -------------------
+                       #####         256
+      FullyConnected   XXXXX -------------------
+                       #####         128
+  BatchNormalization    μ|σ  -------------------
+                ReLU   #####         128
+      FullyConnected   XXXXX -------------------
+                       #####          64
+  BatchNormalization    μ|σ  -------------------
+                ReLU   #####          64
+      FullyConnected   XXXXX -------------------
+          LogSoftmax   #####          30
