@@ -41,10 +41,10 @@ In short, the model has ``6`` convolutional layers, with ``Batch Normalize``, ``
 ### Files Structure
 
 For the network to run properly, the audio files must be organized within folders as follows:
-* The ``gcommads`` folder next to the ``ex5.py`` file
-* A ``gcommads/train`` folder with subfolders (with the names of the ``labels``), so that inside each folder are the ``.wav`` files associated with the same label.
-* A ``gcommads/validate`` folder contains subfolders (with the names of the `labels`), so that within each folder are the ``.wav` files associated with the same label.
-* A ``gcommads/test`` folder contains a subfolder (its name is irrelevant), so it contains the test's ``.wav`` files.
+* The ``gcommands`` folder next to the ``ex5.py`` file
+* A ``gcommands/train`` folder with subfolders (with the names of the ``labels``), so that inside each folder are the ``.wav`` files associated with the same label.
+* A ``gcommands/validate`` folder contains subfolders (with the names of the `labels`), so that within each folder are the ``.wav` files associated with the same label.
+* A ``gcommands/test`` folder contains a subfolder (its name is irrelevant), so it contains the test's ``.wav`` files.
 
 ### Running Instructions
 
