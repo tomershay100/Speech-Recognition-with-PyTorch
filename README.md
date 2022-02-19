@@ -27,7 +27,7 @@ Implementation of a neural network on the audio files. using ``gcommand_dataset.
 
 The audio files in this dataset are ``~`` ``1sec`` long, and there are `` 30`` optional commands that can be heard in the files.
 
-### Models Structure
+### Model Structure
 You can see the diagram of the Neural Network:
 In short, the model has ``6`` convolutional layers, with ``Batch Normalize``, ``ReLU`` and ``Max Pooling`` after each one. Then a ``Flatten`` layer and ``4`` more ``Fully Connected`` layers. The output of the neural network is ``30``.
 #### Hyper Parameters
@@ -37,6 +37,8 @@ In short, the model has ``6`` convolutional layers, with ``Batch Normalize``, ``
  - **Batch Size  ``= 64``**
  - **Optimizer  ``= Adam``**
  - **Learning Rate  ``= 0.0001``**
+
+![Model Structure](https://github.com/tomershay100/Speech-Recognition-with-PyTorch/blob/main/CNN%20Architecture.drawio.pdf)
 
 ### Files Structure
 
