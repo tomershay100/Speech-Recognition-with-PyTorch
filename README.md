@@ -2,10 +2,6 @@
 
 
 # Speech Recognition with PyTorch
-
-NEED TO ADD:
-על הקבצים שהקוד מייצא כולל הגרף
-
 CNN implementation in Python with PyTorch, on audio (``.wav``) files (94+ on test).
 
 1. [General](#General)
@@ -48,6 +44,11 @@ For the network to run properly, the audio files must be organized within folder
 * A ``gcommands/train`` folder with subfolders (with the names of the ``labels``), so that inside each folder are the ``.wav`` files associated with the same label.
 * A ``gcommands/validate`` folder contains subfolders (with the names of the `labels`), so that within each folder are the ``.wav` files associated with the same label.
 * A ``gcommands/test`` folder contains a subfolder (its name is irrelevant), so it contains the test's ``.wav`` files.
+
+#### About The Output Files
+The program code exports a total of 2 files:
+* A ``test_y`` file that contains the predictions for the test.
+* The ``BestModelcpu.png`` or ``BestModelcuda.png`` file (based on the device on which the code runs), which contains a graph of the accuracy percentage and loss values of the training and the validation depending on the epochs.
 
 ### Running Instructions
 
