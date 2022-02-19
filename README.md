@@ -38,7 +38,7 @@ In short, the model has ``6`` convolutional layers, with ``Batch Normalize``, ``
  - **Optimizer  ``= Adam``**
  - **Learning Rate  ``= 0.0001``**
 
-![](https://github.com/tomershay100/Speech-Recognition-with-PyTorch/blob/main/CNN%20Architecture.drawio.svg)
+![](https://github.com/tomershay100/Speech-Recognition-with-PyTorch/blob/main/CNN%20Architecture.svg)
 
 ### Files Structure
 
