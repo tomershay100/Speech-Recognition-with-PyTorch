@@ -1,17 +1,18 @@
 
 
+
 # Speech Recognition with PyTorch
 
 NEED TO ADD:
 על הקבצים שהקוד מייצא כולל הגרף
-להוסיף את תרשים של המודל לרידמי
 
 CNN implementation in Python with PyTorch, on audio (``.wav``) files (94+ on test).
 
 1. [General](#General)
     - [Background](#background)
-    - [Models Structure](https://github.com/tomershay100/Speech-Recognition-with-PyTorch/blob/main/README.md#models-structure)
-    - [Running Instructions](https://github.com/tomershay100/Speech-Recognition-with-PyTorch/blob/main/README.md#running-instructions)
+    - [Model Structure](#model-structure)
+    - [Files Structure](#files-structure)
+    - [Running Instructions](#running-instructions)
 2. [Dependencies](#dependencies) 
 3. [Installation](#installation)
 4. [Footnote](#footnote)
