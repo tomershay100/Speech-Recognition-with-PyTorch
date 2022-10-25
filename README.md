@@ -16,7 +16,7 @@ CNN implementation in Python with PyTorch, on audio (``.wav``) files (94+ on tes
 ## General
 
 #### Contributes
-* Roei Gida
+* Shilat Givati
 * Tomer Shay
 
 ### Background
